@@ -8,8 +8,8 @@ from keras.models import load_model
 word_dict = {0:'One', 1:'Ten', 2:'Two', 3:'Three', 4:'Four', 5:'Five', 6:'Six', 7:'Seven', 8:'Eight', 9:'Nine'}
 
 # Load the trained models
-custom_cnn = load_model(r'C:\Users\swaga\Desktop\PROJ\custom_cnn.h5')
-mobilenet = load_model(r'C:\Users\swaga\Desktop\PROJ\custom_mobilenet.h5')
+custom_cnn = load_model('custom_cnn.h5')
+mobilenet = load_model('custom_mobilenet.h5')
 
 # Streamlit app layout
 st.title("Real-Time Hand Gesture Recognition")
